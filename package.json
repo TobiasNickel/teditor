@@ -1,0 +1,22 @@
+{
+    "name": "teditor",
+    "version": "0.0.0",
+    "description": "npm install -g teditor & have a web IDE",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TobiasNickel/teditor.git"
+    },
+    "keywords": [
+       "webeditor"
+    ],
+    "author": "Tobias Nickel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TobiasNickel/teditor/issues"
+    },
+    "homepage": "https://github.com/TobiasNickel/teditor#readme"
+}
