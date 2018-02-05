@@ -1,1 +1,1 @@
-
+console.log(require('fs').readFileSync(__dirname + '/README.md') + '')

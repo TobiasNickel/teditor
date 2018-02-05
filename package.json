@@ -1,8 +1,9 @@
 {
     "name": "teditor",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "npm install -g teditor & have a web IDE",
     "main": "index.js",
+    "bin": "./bin/index.js",
     "scripts": {
         "test": "node test.js"
     },
@@ -11,7 +12,7 @@
         "url": "git+https://github.com/TobiasNickel/teditor.git"
     },
     "keywords": [
-       "webeditor"
+        "webeditor"
     ],
     "author": "Tobias Nickel",
     "license": "MIT",
