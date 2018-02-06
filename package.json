@@ -1,6 +1,6 @@
 {
     "name": "teditor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "npm install -g teditor & have a web IDE",
     "main": "index.js",
     "bin": "./bin/index.js",
@@ -19,5 +19,15 @@
     "bugs": {
         "url": "https://github.com/TobiasNickel/teditor/issues"
     },
-    "homepage": "https://github.com/TobiasNickel/teditor#readme"
+    "homepage": "https://github.com/TobiasNickel/teditor#readme",
+    "dependencies": {
+        "fs-extra": "^5.0.0",
+        "koa": "^2.4.1",
+        "koa-router": "^7.4.0",
+        "koa-static": "^4.0.2",
+        "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+        "webpack": "^3.10.0"
+    }
 }
