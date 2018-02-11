@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+body{
+    background-color: #116bc1;
+}
+
+.eV {
+    position: absolute;
+    top: 30px;
+    bottom: 0px;
+    left: 110px;
+    right: 0px;
+    transition: left 0.15s;
+}
+
+.eV:hover {
+    #left: 0px;
+}
+
+.fileList{
+    position:absolute;
+    top:30px;  
+    cursor:default;
+}
+.fileList .file{
+    width:110px;
+    padding:0px 4px;
+}
+.fileList .file:hover{
+    background-color:rgba(255,255,255,0.05)
+}
+
+.menueView{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:30px;
+    overflow:hidden;
+    width:110px;
+    cursor:default;
+}
+.menueView:hover{
+    height:initial;
+    background-color:blue;
+}
+.menueView .entry{
+    padding:0px 4px;
+}
+.menueView .entry:hover{
+    background-color:rgba(255, 255, 255, 0.33)
+}
+.menueView h1{
+    font-size:20px
+}

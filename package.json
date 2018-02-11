@@ -1,6 +1,6 @@
 {
     "name": "teditor",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "npm install -g teditor & have a web IDE",
     "main": "index.js",
     "bin": "./bin/index.js",
@@ -23,9 +23,10 @@
     "dependencies": {
         "fs-extra": "^5.0.0",
         "koa": "^2.4.1",
+        "koa-bodyparser": "^4.2.0",
+        "koa-mount": "^3.0.0",
         "koa-router": "^7.4.0",
-        "koa-static": "^4.0.2",
-        "underscore": "^1.8.3"
+        "koa-static": "^4.0.2"
     },
     "devDependencies": {
         "webpack": "^3.10.0"
