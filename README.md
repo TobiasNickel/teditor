@@ -4,7 +4,7 @@ npm install teditor &amp; have a web IDE
 tEditor is supposed to become a WebEditor that you will install with a single command.
 
 ```sh
-npm install -g teditor & teditor
+npm install -g teditor && teditor
 ```
 
 I plan to:
