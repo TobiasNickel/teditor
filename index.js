@@ -17,10 +17,10 @@ const editor = { t: 'editor', port: process.env.PORT || 3000, dir: workspacePath
 
 if(options.opt.h || options.opt.help){
     console.log('usage: teditor --dir=. --host=127.0.0.1 --port=3000');
-    console.log('\tThen open your the shown port in the browser');
+    console.log('\tThen open the port shown in the browser');
     console.log('options:')
-    console.log('\t--dir=. \tthe directory to edit int he ide, default is the current directory.')
-    console.log('\t--host=0.0.0.0 \tset this to 0.0.0.0 to access from anywhere, to a remove host, to accept only lets say from your home/office, default is localhost');
+    console.log('\t--dir=. \tthe directory to edit in the ide, default is the current directory.')
+    console.log('\t--host=0.0.0.0 \tset this to 0.0.0.0 to access from anywhere, or to the IP address of a specific interface on the host to serve from there, default is localhost');
     console.log('\t--port=3000 \tthe port to bind, default is 3000');
     console.log('')
     process.exit();
