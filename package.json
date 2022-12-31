@@ -26,6 +26,6 @@
         "tasyncexpress": "^2.0.0"
     },
     "devDependencies": {
-        "webpack": "^3.10.0"
+        "webpack": "^5.75.0"
     }
 }
